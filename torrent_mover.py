@@ -41,8 +41,8 @@ DIR_SERIES   = os.path.join(SCRIPT_PATH, 'series')
 SEASON_PREFIX = 's'
 STRIP_CHARS   = ' ._-'
 
-DEBUG = True
-DRY_RUN = True
+DEBUG = False
+DRY_RUN = False
 
 class TorrentStatus(Enum):
     CHECK_PENDING    = 'check pending'
