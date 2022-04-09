@@ -1,0 +1,12 @@
+transmission:
+    host: 'transmission-host'
+    port: 9091
+    user: 'transmission_user'
+    pass: 'trans_pass'
+directories:
+    download: '/home/user/Downloads/Torrents/Complete'
+    film: '/home/user/Videos/Films'
+    series: '/home/user/Videos/Series'
+misc:
+    season_prefix: 'S'
+    strip_chars: ' ._-'
